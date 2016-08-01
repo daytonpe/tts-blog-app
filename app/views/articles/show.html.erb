@@ -1,16 +1,15 @@
-<p>
-	<strong>Title:</strong>
+<h1>
 	<%= @article.title %>
-</p>
+	
+</h1>
 
 <p>
-	<strong>Author:</strong>
-	<%= @article.user.email %>
+	by
+	<strong><%= @article.user.email %></strong>
 </p>
 
 
 <p>
-	<strong>Text:</strong>
 	<%= @article.text %>
 </p>
 
